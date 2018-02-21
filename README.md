@@ -1,5 +1,2 @@
-My name is Ayodeji Moronkeji David.
-
-I am a project in progress and a Dynamite about to happen.
-
-I don't wait for things to happen, I cause things to happen.
+This NODE and EXPRESS Ecercise uses ES6 compliant codes
+And it transpiles to ES5 using Babel

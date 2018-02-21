@@ -1,10 +1,12 @@
+// Refactored the code to use the ES6 code patterns
+
 import express from "express";
 const app = express();
 const router = express.Router();
 const path = `${__dirname}/views/`;// points to the current working directory housing all the pages to be served
 
-// the middle layer that prints the type of HTTP request
-// a particular route is referring to
+// the middle layer that logs the type of HTTP request
+// a particular route is referring to to the terminal
 router.use((req, res, next) => {
   console.log(`/${req.method}`);
   next();
@@ -30,4 +32,4 @@ app.use("*",(req, res) => {
 
 app.listen(3000,() => {
   console.log("Live at Port 3000");
-})
+});
