@@ -4,7 +4,7 @@ $(document).ready(function () {
       event.preventDefault();
       var search = $("search").val();
 
-      if (searcch == '') {
+      if (search == '') {
           alert("Please enter the text to search for");
           return false;
       } else {
